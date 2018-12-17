@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F08148FD21C776450079BF3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08148FC21C776450079BF3E /* AppDelegate.swift */; };
+		F08148FF21C776450079BF3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08148FE21C776450079BF3E /* ViewController.swift */; };
+		F081490221C776450079BF3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F081490021C776450079BF3E /* Main.storyboard */; };
+		F081490421C776470079BF3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F081490321C776470079BF3E /* Assets.xcassets */; };
+		F081490721C776470079BF3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F081490521C776470079BF3E /* LaunchScreen.storyboard */; };
+		F081491221C776470079BF3E /* KKApiDemo_SeanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F081491121C776470079BF3E /* KKApiDemo_SeanTests.swift */; };
+		F081491D21C776470079BF3E /* KKApiDemo_SeanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F081491C21C776470079BF3E /* KKApiDemo_SeanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F081490E21C776470079BF3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F08148F121C776450079BF3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F08148F821C776450079BF3E;
+			remoteInfo = KKApiDemo_Sean;
+		};
+		F081491921C776470079BF3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F08148F121C776450079BF3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F08148F821C776450079BF3E;
+			remoteInfo = KKApiDemo_Sean;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F08148F921C776450079BF3E /* KKApiDemo_Sean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKApiDemo_Sean.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08148FC21C776450079BF3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F08148FE21C776450079BF3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F081490121C776450079BF3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F081490321C776470079BF3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F081490621C776470079BF3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F081490821C776470079BF3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F081490D21C776470079BF3E /* KKApiDemo_SeanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKApiDemo_SeanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F081491121C776470079BF3E /* KKApiDemo_SeanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKApiDemo_SeanTests.swift; sourceTree = "<group>"; };
+		F081491321C776470079BF3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F081491821C776470079BF3E /* KKApiDemo_SeanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKApiDemo_SeanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F081491C21C776470079BF3E /* KKApiDemo_SeanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKApiDemo_SeanUITests.swift; sourceTree = "<group>"; };
+		F081491E21C776470079BF3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F08148F621C776450079BF3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F081490A21C776470079BF3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F081491521C776470079BF3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F08148F021C776450079BF3E = {
+			isa = PBXGroup;
+			children = (
+				F08148FB21C776450079BF3E /* KKApiDemo_Sean */,
+				F081491021C776470079BF3E /* KKApiDemo_SeanTests */,
+				F081491B21C776470079BF3E /* KKApiDemo_SeanUITests */,
+				F08148FA21C776450079BF3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F08148FA21C776450079BF3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F08148F921C776450079BF3E /* KKApiDemo_Sean.app */,
+				F081490D21C776470079BF3E /* KKApiDemo_SeanTests.xctest */,
+				F081491821C776470079BF3E /* KKApiDemo_SeanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F08148FB21C776450079BF3E /* KKApiDemo_Sean */ = {
+			isa = PBXGroup;
+			children = (
+				F08148FC21C776450079BF3E /* AppDelegate.swift */,
+				F08148FE21C776450079BF3E /* ViewController.swift */,
+				F081490021C776450079BF3E /* Main.storyboard */,
+				F081490321C776470079BF3E /* Assets.xcassets */,
+				F081490521C776470079BF3E /* LaunchScreen.storyboard */,
+				F081490821C776470079BF3E /* Info.plist */,
+			);
+			path = KKApiDemo_Sean;
+			sourceTree = "<group>";
+		};
+		F081491021C776470079BF3E /* KKApiDemo_SeanTests */ = {
+			isa = PBXGroup;
+			children = (
+				F081491121C776470079BF3E /* KKApiDemo_SeanTests.swift */,
+				F081491321C776470079BF3E /* Info.plist */,
+			);
+			path = KKApiDemo_SeanTests;
+			sourceTree = "<group>";
+		};
+		F081491B21C776470079BF3E /* KKApiDemo_SeanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F081491C21C776470079BF3E /* KKApiDemo_SeanUITests.swift */,
+				F081491E21C776470079BF3E /* Info.plist */,
+			);
+			path = KKApiDemo_SeanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F08148F821C776450079BF3E /* KKApiDemo_Sean */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F081492121C776470079BF3E /* Build configuration list for PBXNativeTarget "KKApiDemo_Sean" */;
+			buildPhases = (
+				F08148F521C776450079BF3E /* Sources */,
+				F08148F621C776450079BF3E /* Frameworks */,
+				F08148F721C776450079BF3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKApiDemo_Sean;
+			productName = KKApiDemo_Sean;
+			productReference = F08148F921C776450079BF3E /* KKApiDemo_Sean.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F081490C21C776470079BF3E /* KKApiDemo_SeanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F081492421C776470079BF3E /* Build configuration list for PBXNativeTarget "KKApiDemo_SeanTests" */;
+			buildPhases = (
+				F081490921C776470079BF3E /* Sources */,
+				F081490A21C776470079BF3E /* Frameworks */,
+				F081490B21C776470079BF3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F081490F21C776470079BF3E /* PBXTargetDependency */,
+			);
+			name = KKApiDemo_SeanTests;
+			productName = KKApiDemo_SeanTests;
+			productReference = F081490D21C776470079BF3E /* KKApiDemo_SeanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F081491721C776470079BF3E /* KKApiDemo_SeanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F081492721C776470079BF3E /* Build configuration list for PBXNativeTarget "KKApiDemo_SeanUITests" */;
+			buildPhases = (
+				F081491421C776470079BF3E /* Sources */,
+				F081491521C776470079BF3E /* Frameworks */,
+				F081491621C776470079BF3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F081491A21C776470079BF3E /* PBXTargetDependency */,
+			);
+			name = KKApiDemo_SeanUITests;
+			productName = KKApiDemo_SeanUITests;
+			productReference = F081491821C776470079BF3E /* KKApiDemo_SeanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F08148F121C776450079BF3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Sean.Yue;
+				TargetAttributes = {
+					F08148F821C776450079BF3E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F081490C21C776470079BF3E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F08148F821C776450079BF3E;
+					};
+					F081491721C776470079BF3E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F08148F821C776450079BF3E;
+					};
+				};
+			};
+			buildConfigurationList = F08148F421C776450079BF3E /* Build configuration list for PBXProject "KKApiDemo_Sean" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F08148F021C776450079BF3E;
+			productRefGroup = F08148FA21C776450079BF3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F08148F821C776450079BF3E /* KKApiDemo_Sean */,
+				F081490C21C776470079BF3E /* KKApiDemo_SeanTests */,
+				F081491721C776470079BF3E /* KKApiDemo_SeanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F08148F721C776450079BF3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F081490721C776470079BF3E /* LaunchScreen.storyboard in Resources */,
+				F081490421C776470079BF3E /* Assets.xcassets in Resources */,
+				F081490221C776450079BF3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F081490B21C776470079BF3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F081491621C776470079BF3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F08148F521C776450079BF3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08148FF21C776450079BF3E /* ViewController.swift in Sources */,
+				F08148FD21C776450079BF3E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F081490921C776470079BF3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F081491221C776470079BF3E /* KKApiDemo_SeanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F081491421C776470079BF3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F081491D21C776470079BF3E /* KKApiDemo_SeanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F081490F21C776470079BF3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F08148F821C776450079BF3E /* KKApiDemo_Sean */;
+			targetProxy = F081490E21C776470079BF3E /* PBXContainerItemProxy */;
+		};
+		F081491A21C776470079BF3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F08148F821C776450079BF3E /* KKApiDemo_Sean */;
+			targetProxy = F081491921C776470079BF3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F081490021C776450079BF3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F081490121C776450079BF3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F081490521C776470079BF3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F081490621C776470079BF3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F081491F21C776470079BF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F081492021C776470079BF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F081492221C776470079BF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KKApiDemo_Sean/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sean.yue.KKApiDemo-Sean";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F081492321C776470079BF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KKApiDemo_Sean/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sean.yue.KKApiDemo-Sean";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F081492521C776470079BF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KKApiDemo_SeanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sean.yue.KKApiDemo-SeanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKApiDemo_Sean.app/KKApiDemo_Sean";
+			};
+			name = Debug;
+		};
+		F081492621C776470079BF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KKApiDemo_SeanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sean.yue.KKApiDemo-SeanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKApiDemo_Sean.app/KKApiDemo_Sean";
+			};
+			name = Release;
+		};
+		F081492821C776470079BF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KKApiDemo_SeanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sean.yue.KKApiDemo-SeanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KKApiDemo_Sean;
+			};
+			name = Debug;
+		};
+		F081492921C776470079BF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KKApiDemo_SeanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sean.yue.KKApiDemo-SeanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KKApiDemo_Sean;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F08148F421C776450079BF3E /* Build configuration list for PBXProject "KKApiDemo_Sean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F081491F21C776470079BF3E /* Debug */,
+				F081492021C776470079BF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F081492121C776470079BF3E /* Build configuration list for PBXNativeTarget "KKApiDemo_Sean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F081492221C776470079BF3E /* Debug */,
+				F081492321C776470079BF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F081492421C776470079BF3E /* Build configuration list for PBXNativeTarget "KKApiDemo_SeanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F081492521C776470079BF3E /* Debug */,
+				F081492621C776470079BF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F081492721C776470079BF3E /* Build configuration list for PBXNativeTarget "KKApiDemo_SeanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F081492821C776470079BF3E /* Debug */,
+				F081492921C776470079BF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F08148F121C776450079BF3E /* Project object */;
+}
