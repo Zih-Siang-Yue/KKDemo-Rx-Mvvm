@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'KKApiDemo_Sean' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for KKApiDemo_Sean
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxDataSources'
+  pod 'RealmSwift'
+  pod 'SDWebImage'  
+  pod 'SnapKit'
+  pod 'Action'
+  pod 'NSObject+Rx'
+  pod 'SVProgressHUD'
+
+  target 'KKApiDemo_SeanTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'KKApiDemo_SeanUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

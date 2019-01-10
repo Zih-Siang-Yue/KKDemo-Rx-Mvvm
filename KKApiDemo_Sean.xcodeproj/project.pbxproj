@@ -7,13 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C5244ADE1263B614FB9C437 /* Pods_KKApiDemo_SeanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0CE9002B6088E48584680C /* Pods_KKApiDemo_SeanTests.framework */; };
+		BBBD7DB6DA7F779EEF447757 /* Pods_KKApiDemo_SeanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F6F0179E208C877F5E4FEF /* Pods_KKApiDemo_SeanUITests.framework */; };
+		EA07987663EDD3F471973978 /* Pods_KKApiDemo_Sean.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EF151F76B9E95AE2813D17 /* Pods_KKApiDemo_Sean.framework */; };
+		F026C80421CA526400609CA6 /* KKAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026C80321CA526400609CA6 /* KKAPI.swift */; };
+		F026C80D21CB62FE00609CA6 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026C80C21CB62FE00609CA6 /* EndPoint.swift */; };
+		F026C80F21CB630E00609CA6 /* EndPointBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026C80E21CB630E00609CA6 /* EndPointBuilder.swift */; };
+		F026C81121CB7C1E00609CA6 /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026C81021CB7C1E00609CA6 /* FavoriteTableViewCell.swift */; };
+		F026C81321CB7C5600609CA6 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026C81221CB7C5600609CA6 /* FavoriteViewController.swift */; };
+		F026C81921CB9FFD00609CA6 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026C81821CB9FFD00609CA6 /* ListModel.swift */; };
+		F026C81D21CBC91700609CA6 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026C81C21CBC91700609CA6 /* AuthModel.swift */; };
+		F026C81F21CCB1EE00609CA6 /* PlaylistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026C81E21CCB1EE00609CA6 /* PlaylistModel.swift */; };
+		F026C82121CCECDF00609CA6 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026C82021CCECDF00609CA6 /* CategoryModel.swift */; };
+		F026C82321CE464700609CA6 /* TrackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026C82221CE464700609CA6 /* TrackModel.swift */; };
+		F026C82521CE469F00609CA6 /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026C82421CE469F00609CA6 /* AlbumModel.swift */; };
+		F026C82721CE47B800609CA6 /* ArtistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026C82621CE47B800609CA6 /* ArtistModel.swift */; };
+		F026C82E21D0835A00609CA6 /* PagingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026C82D21D0835A00609CA6 /* PagingModel.swift */; };
+		F026C83021D0838B00609CA6 /* SummaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026C82F21D0838B00609CA6 /* SummaryModel.swift */; };
+		F026C83221D083D100609CA6 /* OwnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026C83121D083D100609CA6 /* OwnerModel.swift */; };
+		F026C83421D083FB00609CA6 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026C83321D083FB00609CA6 /* ImageModel.swift */; };
+		F026C83621D0910300609CA6 /* KKAPI+Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026C83521D0910300609CA6 /* KKAPI+Playlist.swift */; };
+		F026C83821D0915200609CA6 /* KKAPI+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026C83721D0915200609CA6 /* KKAPI+Category.swift */; };
+		F026C83C21D091F500609CA6 /* String+Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026C83B21D091F500609CA6 /* String+Encoding.swift */; };
+		F026C83E21D0A4DC00609CA6 /* PlayListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026C83D21D0A4DC00609CA6 /* PlayListViewModel.swift */; };
+		F026C84321D0E53B00609CA6 /* SBIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026C84221D0E53B00609CA6 /* SBIdentifiable.swift */; };
+		F026C84521D0E72100609CA6 /* UIStoryboard+SBIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026C84421D0E72100609CA6 /* UIStoryboard+SBIdentifiable.swift */; };
+		F046F15E21E64130009BEA48 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F046F15C21E64130009BEA48 /* LogoutViewController.swift */; };
+		F046F15F21E64130009BEA48 /* LogoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F046F15D21E64130009BEA48 /* LogoutViewController.xib */; };
+		F046F16121E64689009BEA48 /* LogoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F046F16021E64689009BEA48 /* LogoutViewModel.swift */; };
+		F046F16421E6ED2F009BEA48 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = F046F16321E6ED2F009BEA48 /* Router.swift */; };
+		F05C78B421D1C8F800CFA532 /* PlayListDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05C78B321D1C8F800CFA532 /* PlayListDetailViewModel.swift */; };
+		F05C78BB21D1DF8F00CFA532 /* PlayListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05C78B921D1DF8F00CFA532 /* PlayListDetailViewController.swift */; };
+		F05C78BC21D1DF8F00CFA532 /* PlayListDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F05C78BA21D1DF8F00CFA532 /* PlayListDetailViewController.xib */; };
+		F05C78BE21D1E16500CFA532 /* PlayListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F05C78BD21D1E16500CFA532 /* PlayListTableViewCell.xib */; };
+		F066965A21D32C1F0049FC2D /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F066965921D32C1F0049FC2D /* RealmManager.swift */; };
+		F066965E21D371760049FC2D /* Realm+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F066965D21D371760049FC2D /* Realm+Codable.swift */; };
+		F066966D21D5F0B20049FC2D /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F066966B21D5F0B20049FC2D /* TrackViewController.swift */; };
+		F066966E21D5F0B20049FC2D /* TrackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F066966C21D5F0B20049FC2D /* TrackViewController.xib */; };
+		F066967121D5F4C10049FC2D /* TrackViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F066967021D5F4C10049FC2D /* TrackViewModel.swift */; };
+		F066967521D5F6E90049FC2D /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F066967421D5F6E90049FC2D /* ViewModelType.swift */; };
 		F08148FD21C776450079BF3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08148FC21C776450079BF3E /* AppDelegate.swift */; };
-		F08148FF21C776450079BF3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08148FE21C776450079BF3E /* ViewController.swift */; };
 		F081490221C776450079BF3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F081490021C776450079BF3E /* Main.storyboard */; };
 		F081490421C776470079BF3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F081490321C776470079BF3E /* Assets.xcassets */; };
 		F081490721C776470079BF3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F081490521C776470079BF3E /* LaunchScreen.storyboard */; };
 		F081491221C776470079BF3E /* KKApiDemo_SeanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F081491121C776470079BF3E /* KKApiDemo_SeanTests.swift */; };
 		F081491D21C776470079BF3E /* KKApiDemo_SeanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F081491C21C776470079BF3E /* KKApiDemo_SeanUITests.swift */; };
+		F081492C21C779C00079BF3E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F081492B21C779C00079BF3E /* BaseViewController.swift */; };
+		F081493221C793180079BF3E /* PlayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F081493121C793180079BF3E /* PlayListViewController.swift */; };
+		F081493421C793330079BF3E /* PlayListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F081493321C793330079BF3E /* PlayListTableViewCell.swift */; };
+		F081493621C7A69F0079BF3E /* NetworkAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F081493521C7A69F0079BF3E /* NetworkAgent.swift */; };
+		F0977F8B21DC89B7000EBA6C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0977F8921DC89B7000EBA6C /* LoginViewController.swift */; };
+		F0977F8C21DC89B7000EBA6C /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0977F8A21DC89B7000EBA6C /* LoginViewController.xib */; };
+		F0977F8E21DC89DA000EBA6C /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0977F8D21DC89DA000EBA6C /* LoginViewModel.swift */; };
+		F0977F9221DDF1DE000EBA6C /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0977F9121DDF1DE000EBA6C /* FavoriteViewModel.swift */; };
+		F0CC845021E4756C00D6F7DB /* FavorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CC844F21E4756C00D6F7DB /* FavorModel.swift */; };
+		F0CC845821E5D86300D6F7DB /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CC845721E5D86300D6F7DB /* ValidationResult.swift */; };
+		F0CC845B21E5D9A500D6F7DB /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CC845A21E5D9A500D6F7DB /* LoginService.swift */; };
+		F0CC845E21E5EAD600D6F7DB /* RxSwift+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CC845D21E5EAD500D6F7DB /* RxSwift+UILabel.swift */; };
+		F0DBFCC221DF558100F0FBA3 /* Realm+Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DBFCC121DF558100F0FBA3 /* Realm+Object.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +85,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21E4A8DBCCF0E0D49E028149 /* Pods-KKApiDemo_SeanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKApiDemo_SeanUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KKApiDemo_SeanUITests/Pods-KKApiDemo_SeanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		32F6F0179E208C877F5E4FEF /* Pods_KKApiDemo_SeanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKApiDemo_SeanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		657D1EB59177815CDBE70408 /* Pods-KKApiDemo_SeanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKApiDemo_SeanTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKApiDemo_SeanTests/Pods-KKApiDemo_SeanTests.release.xcconfig"; sourceTree = "<group>"; };
+		706697F30D08673D46DC588C /* Pods-KKApiDemo_Sean.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKApiDemo_Sean.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KKApiDemo_Sean/Pods-KKApiDemo_Sean.debug.xcconfig"; sourceTree = "<group>"; };
+		720085E63EEA1253E3FD7BE4 /* Pods-KKApiDemo_Sean.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKApiDemo_Sean.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKApiDemo_Sean/Pods-KKApiDemo_Sean.release.xcconfig"; sourceTree = "<group>"; };
+		76B5126D811375300C00E9FB /* Pods-KKApiDemo_SeanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKApiDemo_SeanTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KKApiDemo_SeanTests/Pods-KKApiDemo_SeanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		949975F8D31771E451B7391A /* Pods-KKApiDemo_SeanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKApiDemo_SeanUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKApiDemo_SeanUITests/Pods-KKApiDemo_SeanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B6EF151F76B9E95AE2813D17 /* Pods_KKApiDemo_Sean.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKApiDemo_Sean.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0CE9002B6088E48584680C /* Pods_KKApiDemo_SeanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKApiDemo_SeanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F026C80321CA526400609CA6 /* KKAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKAPI.swift; sourceTree = "<group>"; };
+		F026C80C21CB62FE00609CA6 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		F026C80E21CB630E00609CA6 /* EndPointBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointBuilder.swift; sourceTree = "<group>"; };
+		F026C81021CB7C1E00609CA6 /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
+		F026C81221CB7C5600609CA6 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		F026C81821CB9FFD00609CA6 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		F026C81C21CBC91700609CA6 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
+		F026C81E21CCB1EE00609CA6 /* PlaylistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistModel.swift; sourceTree = "<group>"; };
+		F026C82021CCECDF00609CA6 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		F026C82221CE464700609CA6 /* TrackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackModel.swift; sourceTree = "<group>"; };
+		F026C82421CE469F00609CA6 /* AlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
+		F026C82621CE47B800609CA6 /* ArtistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistModel.swift; sourceTree = "<group>"; };
+		F026C82D21D0835A00609CA6 /* PagingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingModel.swift; sourceTree = "<group>"; };
+		F026C82F21D0838B00609CA6 /* SummaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryModel.swift; sourceTree = "<group>"; };
+		F026C83121D083D100609CA6 /* OwnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerModel.swift; sourceTree = "<group>"; };
+		F026C83321D083FB00609CA6 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		F026C83521D0910300609CA6 /* KKAPI+Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KKAPI+Playlist.swift"; sourceTree = "<group>"; };
+		F026C83721D0915200609CA6 /* KKAPI+Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KKAPI+Category.swift"; sourceTree = "<group>"; };
+		F026C83B21D091F500609CA6 /* String+Encoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Encoding.swift"; sourceTree = "<group>"; };
+		F026C83D21D0A4DC00609CA6 /* PlayListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListViewModel.swift; sourceTree = "<group>"; };
+		F026C84221D0E53B00609CA6 /* SBIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBIdentifiable.swift; sourceTree = "<group>"; };
+		F026C84421D0E72100609CA6 /* UIStoryboard+SBIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+SBIdentifiable.swift"; sourceTree = "<group>"; };
+		F046F15C21E64130009BEA48 /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
+		F046F15D21E64130009BEA48 /* LogoutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogoutViewController.xib; sourceTree = "<group>"; };
+		F046F16021E64689009BEA48 /* LogoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewModel.swift; sourceTree = "<group>"; };
+		F046F16321E6ED2F009BEA48 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		F05C78B321D1C8F800CFA532 /* PlayListDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListDetailViewModel.swift; sourceTree = "<group>"; };
+		F05C78B921D1DF8F00CFA532 /* PlayListDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListDetailViewController.swift; sourceTree = "<group>"; };
+		F05C78BA21D1DF8F00CFA532 /* PlayListDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayListDetailViewController.xib; sourceTree = "<group>"; };
+		F05C78BD21D1E16500CFA532 /* PlayListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayListTableViewCell.xib; sourceTree = "<group>"; };
+		F066965921D32C1F0049FC2D /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		F066965D21D371760049FC2D /* Realm+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Realm+Codable.swift"; sourceTree = "<group>"; };
+		F066966B21D5F0B20049FC2D /* TrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
+		F066966C21D5F0B20049FC2D /* TrackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackViewController.xib; sourceTree = "<group>"; };
+		F066967021D5F4C10049FC2D /* TrackViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewModel.swift; sourceTree = "<group>"; };
+		F066967421D5F6E90049FC2D /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
 		F08148F921C776450079BF3E /* KKApiDemo_Sean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKApiDemo_Sean.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F08148FC21C776450079BF3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F08148FE21C776450079BF3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F081490121C776450079BF3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F081490321C776470079BF3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F081490621C776470079BF3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +142,19 @@
 		F081491821C776470079BF3E /* KKApiDemo_SeanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKApiDemo_SeanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F081491C21C776470079BF3E /* KKApiDemo_SeanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKApiDemo_SeanUITests.swift; sourceTree = "<group>"; };
 		F081491E21C776470079BF3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F081492B21C779C00079BF3E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		F081493121C793180079BF3E /* PlayListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListViewController.swift; sourceTree = "<group>"; };
+		F081493321C793330079BF3E /* PlayListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListTableViewCell.swift; sourceTree = "<group>"; };
+		F081493521C7A69F0079BF3E /* NetworkAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAgent.swift; sourceTree = "<group>"; };
+		F0977F8921DC89B7000EBA6C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F0977F8A21DC89B7000EBA6C /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		F0977F8D21DC89DA000EBA6C /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		F0977F9121DDF1DE000EBA6C /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
+		F0CC844F21E4756C00D6F7DB /* FavorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavorModel.swift; sourceTree = "<group>"; };
+		F0CC845721E5D86300D6F7DB /* ValidationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationResult.swift; sourceTree = "<group>"; };
+		F0CC845A21E5D9A500D6F7DB /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		F0CC845D21E5EAD500D6F7DB /* RxSwift+UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxSwift+UILabel.swift"; sourceTree = "<group>"; };
+		F0DBFCC121DF558100F0FBA3 /* Realm+Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Realm+Object.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA07987663EDD3F471973978 /* Pods_KKApiDemo_Sean.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +170,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C5244ADE1263B614FB9C437 /* Pods_KKApiDemo_SeanTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +178,235 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBBD7DB6DA7F779EEF447757 /* Pods_KKApiDemo_SeanUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		656AD3DB7FBA431FA192A2CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				706697F30D08673D46DC588C /* Pods-KKApiDemo_Sean.debug.xcconfig */,
+				720085E63EEA1253E3FD7BE4 /* Pods-KKApiDemo_Sean.release.xcconfig */,
+				76B5126D811375300C00E9FB /* Pods-KKApiDemo_SeanTests.debug.xcconfig */,
+				657D1EB59177815CDBE70408 /* Pods-KKApiDemo_SeanTests.release.xcconfig */,
+				21E4A8DBCCF0E0D49E028149 /* Pods-KKApiDemo_SeanUITests.debug.xcconfig */,
+				949975F8D31771E451B7391A /* Pods-KKApiDemo_SeanUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B8C3F550AF54776F96907ACD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6EF151F76B9E95AE2813D17 /* Pods_KKApiDemo_Sean.framework */,
+				EF0CE9002B6088E48584680C /* Pods_KKApiDemo_SeanTests.framework */,
+				32F6F0179E208C877F5E4FEF /* Pods_KKApiDemo_SeanUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F026C80521CA526B00609CA6 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F026C80321CA526400609CA6 /* KKAPI.swift */,
+				F081493521C7A69F0079BF3E /* NetworkAgent.swift */,
+				F026C80C21CB62FE00609CA6 /* EndPoint.swift */,
+				F026C80E21CB630E00609CA6 /* EndPointBuilder.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F026C81421CB7C5D00609CA6 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				F0977F9521DDFAA2000EBA6C /* ViewController */,
+				F0977F9621DDFAAB000EBA6C /* View */,
+				F0977F9721DDFAB7000EBA6C /* ViewModel */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		F026C81721CB9F6600609CA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F026C81C21CBC91700609CA6 /* AuthModel.swift */,
+				F026C81821CB9FFD00609CA6 /* ListModel.swift */,
+				F026C82D21D0835A00609CA6 /* PagingModel.swift */,
+				F026C82F21D0838B00609CA6 /* SummaryModel.swift */,
+				F026C81E21CCB1EE00609CA6 /* PlaylistModel.swift */,
+				F026C83121D083D100609CA6 /* OwnerModel.swift */,
+				F026C83321D083FB00609CA6 /* ImageModel.swift */,
+				F026C82021CCECDF00609CA6 /* CategoryModel.swift */,
+				F026C82221CE464700609CA6 /* TrackModel.swift */,
+				F026C82421CE469F00609CA6 /* AlbumModel.swift */,
+				F026C82621CE47B800609CA6 /* ArtistModel.swift */,
+				F0CC844F21E4756C00D6F7DB /* FavorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F026C82A21CF423500609CA6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F0CC845C21E5EA9C00D6F7DB /* RxSwift */,
+				F066965721D2053D0049FC2D /* KKAPI */,
+				F066965F21D383450049FC2D /* String */,
+				F066966021D3834F0049FC2D /* UIStoryboard */,
+				F066966121D383590049FC2D /* Realm */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F046F15B21E640FA009BEA48 /* Logout */ = {
+			isa = PBXGroup;
+			children = (
+				F046F16521E6F21C009BEA48 /* ViewController */,
+				F046F16621E6F225009BEA48 /* ViewModel */,
+			);
+			path = Logout;
+			sourceTree = "<group>";
+		};
+		F046F16221E6ED13009BEA48 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F046F16321E6ED2F009BEA48 /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F046F16521E6F21C009BEA48 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F046F15C21E64130009BEA48 /* LogoutViewController.swift */,
+				F046F15D21E64130009BEA48 /* LogoutViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F046F16621E6F225009BEA48 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F046F16021E64689009BEA48 /* LogoutViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F066965721D2053D0049FC2D /* KKAPI */ = {
+			isa = PBXGroup;
+			children = (
+				F026C83521D0910300609CA6 /* KKAPI+Playlist.swift */,
+				F026C83721D0915200609CA6 /* KKAPI+Category.swift */,
+			);
+			path = KKAPI;
+			sourceTree = "<group>";
+		};
+		F066965821D32BF60049FC2D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F066965921D32C1F0049FC2D /* RealmManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		F066965F21D383450049FC2D /* String */ = {
+			isa = PBXGroup;
+			children = (
+				F026C83B21D091F500609CA6 /* String+Encoding.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		F066966021D3834F0049FC2D /* UIStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				F026C84421D0E72100609CA6 /* UIStoryboard+SBIdentifiable.swift */,
+			);
+			path = UIStoryboard;
+			sourceTree = "<group>";
+		};
+		F066966121D383590049FC2D /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				F066965D21D371760049FC2D /* Realm+Codable.swift */,
+				F0DBFCC121DF558100F0FBA3 /* Realm+Object.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		F066966221D383660049FC2D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F026C80521CA526B00609CA6 /* Service */,
+				F066965821D32BF60049FC2D /* Manager */,
+				F0CC845621E5D85200D6F7DB /* Enum */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F066966321D5EFD30049FC2D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F066966421D5EFEF0049FC2D /* PlayListTableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F066966421D5EFEF0049FC2D /* PlayListTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F081493321C793330079BF3E /* PlayListTableViewCell.swift */,
+				F05C78BD21D1E16500CFA532 /* PlayListTableViewCell.xib */,
+			);
+			path = PlayListTableViewCell;
+			sourceTree = "<group>";
+		};
+		F066966521D5EFFC0049FC2D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F026C83D21D0A4DC00609CA6 /* PlayListViewModel.swift */,
+				F05C78B321D1C8F800CFA532 /* PlayListDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F066966721D5F0180049FC2D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F081493121C793180079BF3E /* PlayListViewController.swift */,
+				F05C78B921D1DF8F00CFA532 /* PlayListDetailViewController.swift */,
+				F05C78BA21D1DF8F00CFA532 /* PlayListDetailViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F066966F21D5F0BB0049FC2D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F066966B21D5F0B20049FC2D /* TrackViewController.swift */,
+				F066966C21D5F0B20049FC2D /* TrackViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F066967221D5F4CD0049FC2D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F066967021D5F4C10049FC2D /* TrackViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F066967321D5F6CB0049FC2D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F066967421D5F6E90049FC2D /* ViewModelType.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		F08148F021C776450079BF3E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +414,8 @@
 				F081491021C776470079BF3E /* KKApiDemo_SeanTests */,
 				F081491B21C776470079BF3E /* KKApiDemo_SeanUITests */,
 				F08148FA21C776450079BF3E /* Products */,
+				656AD3DB7FBA431FA192A2CD /* Pods */,
+				B8C3F550AF54776F96907ACD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +433,17 @@
 			isa = PBXGroup;
 			children = (
 				F08148FC21C776450079BF3E /* AppDelegate.swift */,
-				F08148FE21C776450079BF3E /* ViewController.swift */,
+				F046F16221E6ED13009BEA48 /* Router */,
+				F0977F9021DC89F5000EBA6C /* Login */,
+				F046F15B21E640FA009BEA48 /* Logout */,
+				F081493021C792CF0079BF3E /* PlayList */,
+				F0CC845121E487D100D6F7DB /* Track */,
+				F026C81421CB7C5D00609CA6 /* Favorite */,
+				F066967321D5F6CB0049FC2D /* ViewModel */,
+				F081492A21C778660079BF3E /* ViewController */,
+				F026C81721CB9F6600609CA6 /* Model */,
+				F066966221D383660049FC2D /* Utils */,
+				F026C82A21CF423500609CA6 /* Extension */,
 				F081490021C776450079BF3E /* Main.storyboard */,
 				F081490321C776470079BF3E /* Assets.xcassets */,
 				F081490521C776470079BF3E /* LaunchScreen.storyboard */,
@@ -125,6 +470,109 @@
 			path = KKApiDemo_SeanUITests;
 			sourceTree = "<group>";
 		};
+		F081492A21C778660079BF3E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F081492B21C779C00079BF3E /* BaseViewController.swift */,
+				F026C84221D0E53B00609CA6 /* SBIdentifiable.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F081493021C792CF0079BF3E /* PlayList */ = {
+			isa = PBXGroup;
+			children = (
+				F066966721D5F0180049FC2D /* ViewController */,
+				F066966321D5EFD30049FC2D /* View */,
+				F066966521D5EFFC0049FC2D /* ViewModel */,
+			);
+			path = PlayList;
+			sourceTree = "<group>";
+		};
+		F0977F9021DC89F5000EBA6C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F0977F9321DDFA6E000EBA6C /* ViewController */,
+				F0977F9421DDFA7A000EBA6C /* ViewModel */,
+				F0CC845921E5D98600D6F7DB /* Service */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F0977F9321DDFA6E000EBA6C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F0977F8921DC89B7000EBA6C /* LoginViewController.swift */,
+				F0977F8A21DC89B7000EBA6C /* LoginViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F0977F9421DDFA7A000EBA6C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F0977F8D21DC89DA000EBA6C /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F0977F9521DDFAA2000EBA6C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F026C81221CB7C5600609CA6 /* FavoriteViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F0977F9621DDFAAB000EBA6C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F026C81021CB7C1E00609CA6 /* FavoriteTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0977F9721DDFAB7000EBA6C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F0977F9121DDF1DE000EBA6C /* FavoriteViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F0CC845121E487D100D6F7DB /* Track */ = {
+			isa = PBXGroup;
+			children = (
+				F066966F21D5F0BB0049FC2D /* ViewController */,
+				F066967221D5F4CD0049FC2D /* ViewModel */,
+			);
+			path = Track;
+			sourceTree = "<group>";
+		};
+		F0CC845621E5D85200D6F7DB /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				F0CC845721E5D86300D6F7DB /* ValidationResult.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		F0CC845921E5D98600D6F7DB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F0CC845A21E5D9A500D6F7DB /* LoginService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F0CC845C21E5EA9C00D6F7DB /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F0CC845D21E5EAD500D6F7DB /* RxSwift+UILabel.swift */,
+			);
+			path = RxSwift;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +580,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F081492121C776470079BF3E /* Build configuration list for PBXNativeTarget "KKApiDemo_Sean" */;
 			buildPhases = (
+				EC4A7CE5F7E0B4F93C64C31C /* [CP] Check Pods Manifest.lock */,
 				F08148F521C776450079BF3E /* Sources */,
 				F08148F621C776450079BF3E /* Frameworks */,
 				F08148F721C776450079BF3E /* Resources */,
+				B8F48021759DA6E80D8DAF91 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +599,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F081492421C776470079BF3E /* Build configuration list for PBXNativeTarget "KKApiDemo_SeanTests" */;
 			buildPhases = (
+				B7AB2A6432550876BC0D8CB4 /* [CP] Check Pods Manifest.lock */,
 				F081490921C776470079BF3E /* Sources */,
 				F081490A21C776470079BF3E /* Frameworks */,
 				F081490B21C776470079BF3E /* Resources */,
@@ -167,6 +618,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F081492721C776470079BF3E /* Build configuration list for PBXNativeTarget "KKApiDemo_SeanUITests" */;
 			buildPhases = (
+				5626004BE26D5A989232AD4E /* [CP] Check Pods Manifest.lock */,
 				F081491421C776470079BF3E /* Sources */,
 				F081491521C776470079BF3E /* Frameworks */,
 				F081491621C776470079BF3E /* Resources */,
@@ -231,6 +683,11 @@
 			files = (
 				F081490721C776470079BF3E /* LaunchScreen.storyboard in Resources */,
 				F081490421C776470079BF3E /* Assets.xcassets in Resources */,
+				F046F15F21E64130009BEA48 /* LogoutViewController.xib in Resources */,
+				F05C78BE21D1E16500CFA532 /* PlayListTableViewCell.xib in Resources */,
+				F05C78BC21D1DF8F00CFA532 /* PlayListDetailViewController.xib in Resources */,
+				F066966E21D5F0B20049FC2D /* TrackViewController.xib in Resources */,
+				F0977F8C21DC89B7000EBA6C /* LoginViewController.xib in Resources */,
 				F081490221C776450079BF3E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +708,169 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5626004BE26D5A989232AD4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KKApiDemo_SeanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7AB2A6432550876BC0D8CB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KKApiDemo_SeanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8F48021759DA6E80D8DAF91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KKApiDemo_Sean/Pods-KKApiDemo_Sean-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/NSObject+Rx/NSObject_Rx.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSObject_Rx.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KKApiDemo_Sean/Pods-KKApiDemo_Sean-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC4A7CE5F7E0B4F93C64C31C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KKApiDemo_Sean-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F08148F521C776450079BF3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F08148FF21C776450079BF3E /* ViewController.swift in Sources */,
+				F066965E21D371760049FC2D /* Realm+Codable.swift in Sources */,
+				F026C81321CB7C5600609CA6 /* FavoriteViewController.swift in Sources */,
+				F026C81F21CCB1EE00609CA6 /* PlaylistModel.swift in Sources */,
+				F066966D21D5F0B20049FC2D /* TrackViewController.swift in Sources */,
+				F0977F8E21DC89DA000EBA6C /* LoginViewModel.swift in Sources */,
+				F0977F9221DDF1DE000EBA6C /* FavoriteViewModel.swift in Sources */,
+				F05C78BB21D1DF8F00CFA532 /* PlayListDetailViewController.swift in Sources */,
+				F0CC845E21E5EAD600D6F7DB /* RxSwift+UILabel.swift in Sources */,
+				F026C80421CA526400609CA6 /* KKAPI.swift in Sources */,
+				F026C83821D0915200609CA6 /* KKAPI+Category.swift in Sources */,
+				F026C80F21CB630E00609CA6 /* EndPointBuilder.swift in Sources */,
+				F0CC845821E5D86300D6F7DB /* ValidationResult.swift in Sources */,
+				F081493221C793180079BF3E /* PlayListViewController.swift in Sources */,
+				F026C80D21CB62FE00609CA6 /* EndPoint.swift in Sources */,
+				F0CC845021E4756C00D6F7DB /* FavorModel.swift in Sources */,
+				F026C83C21D091F500609CA6 /* String+Encoding.swift in Sources */,
+				F026C84521D0E72100609CA6 /* UIStoryboard+SBIdentifiable.swift in Sources */,
+				F026C83421D083FB00609CA6 /* ImageModel.swift in Sources */,
+				F066965A21D32C1F0049FC2D /* RealmManager.swift in Sources */,
+				F026C84321D0E53B00609CA6 /* SBIdentifiable.swift in Sources */,
+				F026C82321CE464700609CA6 /* TrackModel.swift in Sources */,
+				F046F16121E64689009BEA48 /* LogoutViewModel.swift in Sources */,
+				F066967121D5F4C10049FC2D /* TrackViewModel.swift in Sources */,
+				F026C83021D0838B00609CA6 /* SummaryModel.swift in Sources */,
+				F026C83621D0910300609CA6 /* KKAPI+Playlist.swift in Sources */,
+				F081493621C7A69F0079BF3E /* NetworkAgent.swift in Sources */,
+				F026C82E21D0835A00609CA6 /* PagingModel.swift in Sources */,
+				F081493421C793330079BF3E /* PlayListTableViewCell.swift in Sources */,
+				F05C78B421D1C8F800CFA532 /* PlayListDetailViewModel.swift in Sources */,
+				F0DBFCC221DF558100F0FBA3 /* Realm+Object.swift in Sources */,
+				F046F16421E6ED2F009BEA48 /* Router.swift in Sources */,
 				F08148FD21C776450079BF3E /* AppDelegate.swift in Sources */,
+				F0977F8B21DC89B7000EBA6C /* LoginViewController.swift in Sources */,
+				F026C83221D083D100609CA6 /* OwnerModel.swift in Sources */,
+				F081492C21C779C00079BF3E /* BaseViewController.swift in Sources */,
+				F026C81921CB9FFD00609CA6 /* ListModel.swift in Sources */,
+				F026C82521CE469F00609CA6 /* AlbumModel.swift in Sources */,
+				F026C82121CCECDF00609CA6 /* CategoryModel.swift in Sources */,
+				F026C81121CB7C1E00609CA6 /* FavoriteTableViewCell.swift in Sources */,
+				F026C81D21CBC91700609CA6 /* AuthModel.swift in Sources */,
+				F026C82721CE47B800609CA6 /* ArtistModel.swift in Sources */,
+				F026C83E21D0A4DC00609CA6 /* PlayListViewModel.swift in Sources */,
+				F0CC845B21E5D9A500D6F7DB /* LoginService.swift in Sources */,
+				F046F15E21E64130009BEA48 /* LogoutViewController.swift in Sources */,
+				F066967521D5F6E90049FC2D /* ViewModelType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,16 +1043,23 @@
 		};
 		F081492221C776470079BF3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 706697F30D08673D46DC588C /* Pods-KKApiDemo_Sean.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PJ29662SU;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = KKApiDemo_Sean/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "sean.yue.KKApiDemo-Sean";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,16 +1067,23 @@
 		};
 		F081492321C776470079BF3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 720085E63EEA1253E3FD7BE4 /* Pods-KKApiDemo_Sean.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PJ29662SU;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = KKApiDemo_Sean/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "sean.yue.KKApiDemo-Sean";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,6 +1091,7 @@
 		};
 		F081492521C776470079BF3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76B5126D811375300C00E9FB /* Pods-KKApiDemo_SeanTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +1112,7 @@
 		};
 		F081492621C776470079BF3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 657D1EB59177815CDBE70408 /* Pods-KKApiDemo_SeanTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +1133,7 @@
 		};
 		F081492821C776470079BF3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21E4A8DBCCF0E0D49E028149 /* Pods-KKApiDemo_SeanUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +1153,7 @@
 		};
 		F081492921C776470079BF3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949975F8D31771E451B7391A /* Pods-KKApiDemo_SeanUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
