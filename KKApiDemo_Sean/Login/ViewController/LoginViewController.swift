@@ -32,6 +32,7 @@ class LoginViewController: BaseViewController {
         binding()
     }
 
+    
     //MARK: init
     init(vm: LoginViewModel) {
         self.vm = vm
