@@ -1,0 +1,6 @@
+framework module Pods_KKApiDemo_Sean {
+  umbrella header "Pods-KKApiDemo_Sean-umbrella.h"
+
+  export *
+  module * { export * }
+}
